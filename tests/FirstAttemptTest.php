@@ -8,6 +8,6 @@ use PHPUnit\Framework\TestCase;
 class FirstAttemptTest extends TestCase {
     public function testSimple() {
         $instance = new FirstAttempt();
-        $this->assertEquals($instance->doIt(), true);
+        $this->assertTrue($instance->doIt());
     }
 }
